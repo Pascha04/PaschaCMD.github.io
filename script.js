@@ -3,20 +3,24 @@
         console.error("tmImage is not loaded! Check your script tag in HTML.");
         return;
     }
- 
+
     const URL = "my_model/";
- 
+    
+    // Hier kun je jouw classes aan geluiden en afbeeldingen koppelen
+    
     const sounds = {
-        "Duimpje": new Audio("my_sounds/magic-fairy.mp3"),
-        "Peace": new Audio("my_sounds/magic-mirror.mp3"),
-        "Hartje": new Audio("my_sounds/magic-shimmer.mp3")
+    "duimpje omhoog": new Audio("my_sounds/kids-saying-yay-sound-effect_xryiS4g.mp3"),
+    "duimpje omlaag": new Audio("my_sounds/studio-audience-awwww-sound-fx.mp3"),
+    "kruisje": new Audio("my_sounds/ohhh_66TuoDC.mp3")
+    
     };
- 
+    
     const images = {
-        "Duimpje": "my_images/stars.png",
-        "Peace": "my_images/planets.png",
-        "Hartje": "my_images/moon.png",
-        "Neutral": "my_images/begin.png"
+    "duimpje omhoog": "my_images/celebration-confetti-with-blur-m99.png",
+    "duimpje omlaag": "my_images/Sad-face.png",
+    "kruisje": "my_images/Typography-Sticker-Try-Again-Graphics-62455051-1.png",
+    "Neutral": "my_images/iphone-beginscherm.jpg"
+    
     };
  
     let model = null;
